@@ -1,10 +1,10 @@
 class CreateGrupos < ActiveRecord::Migration[7.0]
   def change
     create_table :grupos do |t|
-      t.string :nome
-      t.integer :status
+      t.string :nome, limite: 30, null: false
+      t.integer :status, default: 0, null: false
 
-      t.timestamps
+      t.timestamps  null: false
     end
   end
 end

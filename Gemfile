@@ -76,3 +76,5 @@ gem 'devise'
 gem 'faker'
 
 gem 'cancancan'
+
+gem 'activeadmin'

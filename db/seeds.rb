@@ -268,3 +268,67 @@ entrada_cerveja_stellaartois_longneck_275ml = Entrada.create! :estoque => cervej
                                                               :quantidade => 90.0000,
                                                               :preco_unitario => 2.99,
                                                               :preco_total => 0.00
+
+requisicao_cerveja_skol_latao_473ml = Requisicao.create! :estoque => cerveja_skol_latao_473ml,
+                                                         :tipo => "Requisição",
+                                                         :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                         :setor => "Bar",
+                                                         :numero => Faker::Number.number(digits: 5),
+                                                         :quantidade => 15.0000,
+                                                         :custo_medio => 0.00,
+                                                         :custo_total => 0.00
+
+requisicao_cerveja_skol_latao_473ml = Requisicao.create! :estoque => cerveja_skol_latao_473ml,
+                                                         :tipo => "Requisição",
+                                                         :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                         :setor => "Restaurante",
+                                                         :numero => Faker::Number.number(digits: 5),
+                                                         :quantidade => 15.0000,
+                                                         :custo_medio => 0.00,
+                                                         :custo_total => 0.00
+
+requisicao_cerveja_itaipava_latao_550ml = Requisicao.create! :estoque => cerveja_itaipava_latao_550ml,
+                                                             :tipo => "Requisição",
+                                                             :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                             :setor => "Bar",
+                                                             :numero => Faker::Number.number(digits: 5),
+                                                             :quantidade => 15.0000,
+                                                             :custo_medio => 0.00,
+                                                             :custo_total => 0.00
+
+requisicao_cerveja_itaipava_latao_550ml = Requisicao.create! :estoque => cerveja_itaipava_latao_550ml,
+                                                             :tipo => "Requisição",
+                                                             :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                             :setor => "Restaurante",
+                                                             :numero => Faker::Number.number(digits: 5),
+                                                             :quantidade => 15.0000,
+                                                             :custo_medio => 0.00,
+                                                             :custo_total => 0.00
+
+requisicao_cerveja_brahma_lata_350ml = Requisicao.create! :estoque => cerveja_brahma_lata_350ml,
+                                                          :tipo => "Requisição",
+                                                          :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                          :setor => "Bar",
+                                                          :numero => Faker::Number.number(digits: 5),
+                                                          :quantidade => 15.0000,
+                                                          :custo_medio => 0.00,
+                                                          :custo_total => 0.00
+
+requisicao_cerveja_brahma_lata_350ml = Requisicao.create! :estoque => cerveja_brahma_lata_350ml,
+                                                          :tipo => "Requisição",
+                                                          :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                          :setor => "Restaurante",
+                                                          :numero => Faker::Number.number(digits: 5),
+                                                          :quantidade => 15.0000,
+                                                          :custo_medio => 0.00,
+                                                          :custo_total => 0.00
+
+requisicao_cerveja_brahma_lata_350ml = Requisicao.create! :estoque => cerveja_brahma_lata_350ml,
+                                                          :tipo => "Devolução",
+                                                          :data => Faker::Date.between(from: 7.days.ago, to: Date.today),
+                                                          :setor => "Restaurante",
+                                                          :numero => Faker::Number.number(digits: 5),
+                                                          :quantidade => 15.0000,
+                                                          :custo_medio => 0.00,
+                                                          :custo_total => 0.00
+
